@@ -1,6 +1,6 @@
 import React from "react";
 import { Card } from "react-bootstrap";
-import "../Cards/card.css";
+import "../Cards/cards.css";
 import { NavLink } from "react-router-dom";
 
 const Cards = ({ destination }) => {
