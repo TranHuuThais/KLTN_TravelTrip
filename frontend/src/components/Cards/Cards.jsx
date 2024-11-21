@@ -18,7 +18,6 @@ const Cards = ({ destination }) => {
               src={destination.Images}
               className="img-fluid destination-image"
               alt={destination.DestinationName}
-              // style={{ width: "600px", height: "300px",  }} 
 
             />
             <Card.Body>
