@@ -11,6 +11,7 @@ const PopularCard = ({ val }) => {
         src={val.image || "/default-image.jpg"}
         className="img-fluid destination-image"
         alt={val.title || "Tour image"}
+        
       />
       <Card.Body>
         {/* Location */}

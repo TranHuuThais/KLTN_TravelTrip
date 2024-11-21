@@ -9,7 +9,7 @@ import axios from "axios";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-import "./index.css";
+import "../Index/index.css";
 
 import Gallery from "../../../components/Gallery/Gallery";
 import Cards from "../../../components/Cards/Cards";

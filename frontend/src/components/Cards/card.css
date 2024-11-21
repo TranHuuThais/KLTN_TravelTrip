@@ -1,7 +1,7 @@
 .tours_section .img-box {
     padding: 0px 12px;
   }
-  
+
  .img-box .card {
     border: none;
     width: 100%;
@@ -16,6 +16,7 @@
  .img-box .card img {
     transition: all 0.5s ease 0s;
     filter: brightness(0.8);
+    height:350px;
   }
   
  .img-box .card .card-title {
@@ -57,11 +58,6 @@
     transform: translateX(0);
   }
   
-
-
-
-
-
 .popular  {
     padding: 5px;
     border: none;
@@ -82,6 +78,8 @@
 
 .popular img {
     transition: all 0.5s ease 0s;
+    height: 250px;
+
 }
 
 .popular:hover img {
@@ -174,13 +172,14 @@
     font-weight: bold;
 }
 
-  /* Ensure the images have a consistent size and aspect ratio */
+ 
 .destination-image {
-    width: 100%; /* Full width of the card */
-    height: 200px; /* Fixed height for uniformity */
-    object-fit: cover; /* Crop the image if the aspect ratio doesn't match */
-    object-position: center; /* Center the image */
-  }
+  width: 100%; /* Đảm bảo chiều rộng của ảnh bằng chiều rộng của thẻ card */
+  height: 400px; /* Đảm bảo chiều cao ảnh cố định */
+  object-fit: cover; /* Cắt ảnh để giữ tỷ lệ mà không bị méo */
+  object-position: center; /* Đảm bảo ảnh được căn giữa */
+}
+
   
 
 

@@ -1,6 +1,6 @@
 import React from "react";
 import { Card } from "react-bootstrap";
-import "../Cards/card.css";
+import "../Cards/Card.css";
 import { NavLink } from "react-router-dom";
 
 const Cards = ({ destination }) => {
@@ -18,6 +18,8 @@ const Cards = ({ destination }) => {
               src={destination.Images}
               className="img-fluid destination-image"
               alt={destination.DestinationName}
+              // style={{ width: "600px", height: "300px",  }} 
+
             />
             <Card.Body>
               <Card.Title>{destination.DestinationName}</Card.Title>
