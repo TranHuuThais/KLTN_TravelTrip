@@ -1,0 +1,201 @@
+/* Parent container */
+.parent-container {
+    padding: 50px 15px;
+    background-color: #f4f8fc;
+    border-radius: 10px;
+}
+
+/* Form container */
+.form-container {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+/* Form groups and labels */
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: #333;
+}
+
+/* General form elements */
+.form-group input[type="text"],
+.form-group input[type="number"],
+.form-group input[type="file"],
+.form-group textarea,
+.form-group select {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    font-size: 1rem;
+    transition: border-color 0.3s ease, background-color 0.3s ease;
+}
+
+.form-group input[type="text"]:focus,
+.form-group input[type="number"]:focus,
+.form-group textarea:focus,
+.form-group select:focus {
+    border-color: #56CCF2;
+    background-color: #fff;
+}
+
+/* Input file styles for single and multiple images */
+.form-group input[type="file"] {
+    padding: 8px;
+    border-radius: 5px;
+    background: #f9f9f9;
+    cursor: pointer;
+    display: block;
+    margin-top: 10px;
+}
+
+.anh2 input[type="file"] {
+    width: 100%;
+}
+
+/* Image previews */
+.anh2 img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+/* Duration select box */
+.form-group select[multiple] {
+    padding: 12px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    font-size: 1rem;
+    transition: border-color 0.3s ease;
+}
+
+.form-group select[multiple]:focus {
+    border-color: #56CCF2;
+    background-color: #fff;
+}
+
+/* Button styles */
+.buttonCreate {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    background: #2F80ED;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.buttonCreate:hover {
+    background-color: #56CCF2;
+}
+
+/* Row layout adjustments */
+.row-two-items {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.row-two-items .form-group {
+    flex: 1;
+}
+
+.row-one-item {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.row-one-item .form-group {
+    flex: 1;
+}
+
+/* Customizing the multiple select dropdown */
+.select-duration {
+    height: auto;
+    padding: 12px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    font-size: 1rem;
+    transition: border-color 0.3s ease;
+}
+
+/* Hover effect on duration select dropdown */
+.select-duration:hover,
+.select-duration:focus {
+    border-color: #56CCF2;
+    background-color: #fff;
+}
+
+/* Image preview container */
+.image-preview-container {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.image-preview-container img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+/* Dropdown container for selects */
+.form-row,
+.row-two-items {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+    .form-container {
+        padding: 20px;
+    }
+
+    .row-two-items,
+    .row-one-item {
+        flex-direction: column;
+    }
+
+    .row-two-items .form-group,
+    .row-one-item .form-group {
+        flex: 1;
+        margin-bottom: 15px;
+    }
+
+    .buttonCreate {
+        font-size: 1rem;
+        padding: 12px;
+    }
+}
+
+.form-group img {
+    margin-left: 2px;
+}
