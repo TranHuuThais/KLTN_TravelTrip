@@ -1,5 +1,5 @@
 import React from "react";
-import "./cards.css";
+import './Card.css';
 import { Card, Stack } from "react-bootstrap";
 import { NavLink } from "react-router-dom";
 
