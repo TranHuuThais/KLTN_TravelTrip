@@ -1,5 +1,5 @@
 import React from "react";
-import './Card.css';
+import "./card.css";
 import { Card, Stack } from "react-bootstrap";
 import { NavLink } from "react-router-dom";
 
@@ -11,7 +11,6 @@ const PopularCard = ({ val }) => {
         src={val.image || "/default-image.jpg"}
         className="img-fluid destination-image"
         alt={val.title || "Tour image"}
-        
       />
       <Card.Body>
         {/* Location */}
