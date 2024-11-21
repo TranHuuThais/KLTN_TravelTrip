@@ -17,6 +17,15 @@ const PORT = process.env.PORT || 8001;
 
 app.use(cors());
 app.use(express.json());
+app.use(
+  cors({
+    origin: [
+      'http://localhost:5173',
+      'https://kltn-travel-trip-8hy4.vercel.app/',
+      'kltn-travel-trip-8hy4-iac9u1gjg-huuthai.vercel.app'
+    ]
+  })
+)
 
 // Connect to MongoDB
 connectDB();
