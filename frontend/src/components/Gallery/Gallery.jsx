@@ -37,7 +37,8 @@ const Gallery = () => {
                             <img 
                                 src={img} 
                                 alt={`Gallery ${index}`} 
-                                className="img-fluid rounded"
+                                className="img-fluid rounded" // Keep img-fluid for responsiveness
+                                style={{ maxWidth: '20%', height: 'auto' }} // Optional: customize image size
                             />
                         </a>
                     ))}
